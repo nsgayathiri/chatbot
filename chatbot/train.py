@@ -1,5 +1,5 @@
 import json
-with open('no_pii_grievance_v2.json','r') as f:
-      no_pii_grievance_v2 = json.load(f) 
+with open('intents.json','r') as f:
+      intents = json.load(f) 
       
-      print(no_pii_grievance_v2)
+      print(intents)
